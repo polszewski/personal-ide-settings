@@ -1,0 +1,74 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/Description/@EntryValue">Class and Unit Test</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/Text/@EntryValue">namespace $NAMESPACE$&#xD;
+{&#xD;
+	public class $CLASS$ {$END$}&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/Categories/=Imported_00202018_002D03_002D21/@EntryIndexedValue">Imported 2018-03-21</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/CustomProperties/=FileName/@EntryIndexedValue">Class</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/CustomProperties/=ValidateFileName/@EntryIndexedValue">True</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/Field/=NAMESPACE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/Field/=NAMESPACE/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/Field/=NAMESPACE/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/Field/=NAMESPACE/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/Field/=CLASS/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/Field/=CLASS/Expression/@EntryValue">getAlphaNumericFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/Field/=CLASS/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/Field/=CLASS/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/Field/=TESTEDCLASS/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/Field/=TESTEDCLASS/Expression/@EntryValue">spacestounderstrokes(CLASS)</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/Field/=TESTEDCLASS/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/Field/=TESTEDCLASS/Order/@EntryValue">2</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/Field/=TESTEDCLASS/InitialSection/@EntryValue">B3652F8C1C79F7428D12385A1F479B85</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/Field/=TESTCLASS/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/Field/=TESTCLASS/Expression/@EntryValue">getAlphaNumericFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/Field/=TESTCLASS/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/Field/=TESTCLASS/Order/@EntryValue">3</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/Field/=TESTCLASS/InitialSection/@EntryValue">B3652F8C1C79F7428D12385A1F479B85</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/Section/=B3652F8C1C79F7428D12385A1F479B85/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/Section/=B3652F8C1C79F7428D12385A1F479B85/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/Section/=B3652F8C1C79F7428D12385A1F479B85/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig Project="$PROJECT$.Tests" Folder="$RELPATH$" File="$NAME$Tests.cs" /&gt;</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/Section/=B3652F8C1C79F7428D12385A1F479B85/Order/@EntryValue">0</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17FD5AB179BFC64C99BBA89C2A6992A1/Section/=B3652F8C1C79F7428D12385A1F479B85/SectionPlain/Text/@EntryValue">using System;&#xD;
+&#xD;
+using Amadeus.Touchless.Fwk.Infrastructure;&#xD;
+&#xD;
+using AutoFixture;&#xD;
+&#xD;
+using FluentAssertions;&#xD;
+&#xD;
+using NUnit.Framework;&#xD;
+&#xD;
+namespace $NAMESPACE$&#xD;
+{&#xD;
+	[TestFixture]&#xD;
+	public class $TESTCLASS$&#xD;
+	{&#xD;
+		private IFixture _fixture;&#xD;
+&#xD;
+		private $TESTEDCLASS$ _uut;&#xD;
+&#xD;
+		[SetUp]&#xD;
+		public void SetUp()&#xD;
+		{&#xD;
+			_fixture = MoqFixture.Create();&#xD;
+			_uut = _fixture.Create&lt;$TESTEDCLASS$&gt;();&#xD;
+		}&#xD;
+&#xD;
+		[Test]&#xD;
+		public void Ctor_Always_CreatesInstance()&#xD;
+		{&#xD;
+			// Act&#xD;
+			Action action = () =&gt; new $TESTEDCLASS$();&#xD;
+&#xD;
+			// Assert&#xD;
+			action.ShouldNotThrow();&#xD;
+		}$END$&#xD;
+	}&#xD;
+}</s:String></wpf:ResourceDictionary>

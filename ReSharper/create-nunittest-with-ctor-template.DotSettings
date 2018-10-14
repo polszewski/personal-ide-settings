@@ -1,0 +1,58 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0317019D0BC8CA4F90A5DD9E60E97AA3/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0317019D0BC8CA4F90A5DD9E60E97AA3/Description/@EntryValue">Test Fixture with Ctor</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0317019D0BC8CA4F90A5DD9E60E97AA3/Text/@EntryValue">using System;&#xD;
+&#xD;
+using Amadeus.Touchless.Fwk.Infrastructure;&#xD;
+&#xD;
+using AutoFixture;&#xD;
+&#xD;
+using FluentAssertions;&#xD;
+&#xD;
+using NUnit.Framework;&#xD;
+&#xD;
+namespace $NAMESPACE$&#xD;
+{&#xD;
+	[TestFixture]&#xD;
+	public class $TESTCLASS$&#xD;
+	{&#xD;
+		private IFixture _fixture;&#xD;
+&#xD;
+		private $TESTEDCLASS$ _uut;&#xD;
+&#xD;
+		[SetUp]&#xD;
+		public void SetUp()&#xD;
+		{&#xD;
+			_fixture = MoqFixture.Create();&#xD;
+			_uut = _fixture.Create&lt;$TESTEDCLASS$&gt;();&#xD;
+		}&#xD;
+&#xD;
+		[Test]&#xD;
+		public void Ctor_Always_CreatesInstance()&#xD;
+		{&#xD;
+			// Act&#xD;
+			Action action = () =&gt; new $TESTEDCLASS$();&#xD;
+&#xD;
+			// Assert&#xD;
+			action.ShouldNotThrow();&#xD;
+		}$END$&#xD;
+	}&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0317019D0BC8CA4F90A5DD9E60E97AA3/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0317019D0BC8CA4F90A5DD9E60E97AA3/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0317019D0BC8CA4F90A5DD9E60E97AA3/CustomProperties/=FileName/@EntryIndexedValue">Test</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0317019D0BC8CA4F90A5DD9E60E97AA3/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0317019D0BC8CA4F90A5DD9E60E97AA3/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0317019D0BC8CA4F90A5DD9E60E97AA3/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0317019D0BC8CA4F90A5DD9E60E97AA3/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0317019D0BC8CA4F90A5DD9E60E97AA3/Field/=NAMESPACE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0317019D0BC8CA4F90A5DD9E60E97AA3/Field/=NAMESPACE/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0317019D0BC8CA4F90A5DD9E60E97AA3/Field/=NAMESPACE/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0317019D0BC8CA4F90A5DD9E60E97AA3/Field/=NAMESPACE/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0317019D0BC8CA4F90A5DD9E60E97AA3/Field/=TESTCLASS/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0317019D0BC8CA4F90A5DD9E60E97AA3/Field/=TESTCLASS/Expression/@EntryValue">getAlphaNumericFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0317019D0BC8CA4F90A5DD9E60E97AA3/Field/=TESTCLASS/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0317019D0BC8CA4F90A5DD9E60E97AA3/Field/=TESTCLASS/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0317019D0BC8CA4F90A5DD9E60E97AA3/Field/=TESTEDCLASS/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0317019D0BC8CA4F90A5DD9E60E97AA3/Field/=TESTEDCLASS/Expression/@EntryValue">spacestounderstrokes(TESTCLASS)</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0317019D0BC8CA4F90A5DD9E60E97AA3/Field/=TESTEDCLASS/Order/@EntryValue">2</s:Int64></wpf:ResourceDictionary>
